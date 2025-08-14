@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './components/Navbar'
+import Navbar from './common/Navbar'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './components/Home'
 import About from './components/About'
@@ -7,6 +7,7 @@ import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Experience from './components/Experience'
 import Contact from './components/Contact'
+import Footer from './common/Footer'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/experience' element={<Experience />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }

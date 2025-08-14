@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 function About() {
   return (
     <section id="about" className="bg-[#f4f5f6] py-16">
-      <div className="container mx-auto px-6 md:px-6 lg:px-0 xl:px-8 flex flex-col md:flex-row items-center gap-12">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-[72px] flex flex-col md:flex-row items-center gap-12">
         {/* Left Side - Image */}
-        <div className="px-8 lg:px-10 flex pt-10  justify-center">
+        <div className="flex pt-10  justify-center">
           <img
             src={profileImg}
             alt="About Me"

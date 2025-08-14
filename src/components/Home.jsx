@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './Navbar'
+import Navbar from '../common/Navbar'
 import About from './About'
 import Hero from './Hero'
 import Skills from './Skills'

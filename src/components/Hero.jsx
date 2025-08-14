@@ -58,14 +58,14 @@ function Hero() {
   ];
 
   return (
-    <section className="bg-gradient-to-br from-[#eff1f3] via-[#f1f5f9] to-[#e2e8f0] min-h-screen flex items-center pt-16 md:pt-20 px-4 sm:px-6 relative overflow-hidden">
+    <section className="bg-gradient-to-br from-[#eff1f3] via-[#f1f5f9] to-[#e2e8f0] min-h-screen flex items-center pt-16 md:pt-20 px-4 sm:px-6  lg:px-[72px] relative overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden opacity-10">
         <div className="absolute top-20 left-10 w-40 h-40 rounded-full bg-purple-500 mix-blend-multiply filter blur-3xl"></div>
         <div className="absolute bottom-10 right-10 w-60 h-60 rounded-full bg-pink-500 mix-blend-multiply filter blur-3xl"></div>
       </div>
       
-      <div className="container mx-auto sm:px-6 md:px-8 lg:px-0 xl:px-[48px] flex flex-col-reverse justify-center md:flex-row items-center gap-8 md:gap-6 lg:gap-12 xl:gap-16 pt-3 relative z-10">
+      <div className="container mx-auto flex flex-col-reverse justify-center md:flex-row items-center gap-8 md:gap-6 lg:gap-12 xl:gap-16 pt-3 relative z-10">
         {/* Left Section */}
         <motion.div 
           initial="hidden"

@@ -29,7 +29,7 @@ const Contact = () => {
 
   return (
     <section id="contact" className="py-20 bg-gradient-to-b from-gray-200 to-gray-100">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-[72px]">
         {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}

@@ -55,8 +55,8 @@ const Projects = () => {
   };
 
   return (
-    <section id="projects" className="py-20 bg-gradient-to-b from-[#eff1f3] via-[#f1f5f9] to-[#e2e8f0] ">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-[75px]">
+    <section id="projects" className="py-20 bg-gradient-to-b from-[#f8fafc] to-[#f1f5f9] ">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-[72px]">
         {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -79,7 +79,7 @@ const Projects = () => {
           whileInView="visible"
           viewport={{ once: true, margin: "0px 0px -100px 0px" }}
           variants={staggerContainer}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
         >
           {projects.map((project, index) => (
             <motion.div
