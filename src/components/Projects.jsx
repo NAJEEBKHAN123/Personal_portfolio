@@ -1,17 +1,17 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
+import HkCompany from "../assets/hkcompany.png"
 
 const Projects = () => {
   const projects = [
-    {
-      title: "E-Commerce Platform",
-      description: "Full-featured e-commerce solution with React, Node.js, and MongoDB. Includes product listings, cart functionality, user authentication, and payment processing.",
-      tags: ["React", "Node.js", "MongoDB", "Redux", "Stripe"],
-      github: "#",
-      live: "#",
-      image: "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-    },
+  {
+  title: "Hong Kong Company fromation",
+  description: "A multilingual platform automating company registration in Hong Kong, featuring document generation, payment processing, and a client management dashboard.",
+  tags: ["React", "Node.js", "MongoDB", "Stripe", "i18n"],
+  live: "http://ouvrir-societe-hong-kong.fr/",
+  image: HkCompany, 
+},
     {
       title: "Task Management App",
       description: "Productivity application with drag-and-drop functionality, real-time updates, and team collaboration features.",
