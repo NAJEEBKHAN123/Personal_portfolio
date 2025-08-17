@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-white shadow-sm z-50">
-      <div className="container mx-auto flex items-center justify-between py-4 px-3 sm:px-6  lg:px-[72px]">
+      <div className="container mx-auto flex items-center justify-between py-4 px-3 sm:px-6 lg:px-[72px]">
         {/* Logo */}
         <Link 
           to="/" 
@@ -46,7 +46,7 @@ const Navbar = () => {
         </div>
 
         {/* Right Side */}
-        <div className="flex items-center justify-end md:flex-1 space-x-4">
+        <div className="flex items-center justify-end md:flex-1">
           {/* Desktop Hire Me Button */}
           <a
             href="mailto:najeebkhanlaku@gmail.com"
@@ -67,7 +67,7 @@ const Navbar = () => {
 
           {/* Mobile Menu Toggle */}
           <button 
-            className="md:hidden text-gray-700 focus:outline-none p-2"
+            className="md:hidden text-gray-700 focus:outline-none "
             onClick={toggleMobileMenu}
           >
             {isMobileMenuOpen ? <FaTimes size={22} className="text-pink-500" /> : <FaBars size={22} />}
@@ -76,8 +76,8 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden fixed inset-0 bg-gray-300 z-40 pt-24 px-6 overflow-y-auto" style={{ top: '4rem' }}>
-            <ul className="flex flex-col space-y-6">
+          <div className="md:hidden fixed inset-0 bg-gray-300 z-40  px-6 overflow-y-auto" style={{ top: '4rem' }}>
+            <ul className="flex flex-col">
               {navLinks.map((link, index) => (
                 <li key={index}>
                   <Link 
