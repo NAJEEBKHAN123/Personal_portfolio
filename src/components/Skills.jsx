@@ -45,7 +45,7 @@ function Skills() {
 
 return (
     <section id="skills" className="py-16   bg-gradient-to-b from-[#c5c8cb] to-[#e3e9f0]">
-      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-[72px]">
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 md:px lg:px-[72px]">
         {/* Heading */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
