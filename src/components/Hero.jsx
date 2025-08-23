@@ -7,7 +7,7 @@ import {
   FaReact,
   FaNodeJs
 } from "react-icons/fa";
-import { SiExpress, SiMongodb, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { SiExpress, SiMongodb} from "react-icons/si";
 import { motion } from "framer-motion";
 import profileImg from "../assets/me.jpg";
 
@@ -46,8 +46,8 @@ function Hero() {
       name: "Node.js",
       color: "hover:text-[#339933]"
     },
-   
-   
+
+
   ];
 
   const socialIcons = [
